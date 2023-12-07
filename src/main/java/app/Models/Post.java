@@ -14,5 +14,5 @@ public class Post {
     private Long id;
     private String headline;
     private String content;
-    // Lombok сгенерирует геттеры, сеттеры и другие стандартные методы
+    private Long id_user_created;
 }
